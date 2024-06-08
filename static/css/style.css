@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-img {
+    display: flex;
+    margin: -60px auto 20px auto;
+    max-width: 250px;
+    height: auto;
+}
+
+.principal {
+    top: 250px;
+    background: url('../img/deg1.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100vw;
+    height: 100vh;
+    margin: 0; 
+    padding: 0;
+    top: -200px;
+}
+
+.flotante{
+    background-color: #000;
+    height: 525px;
+    width: 1100px;
+    padding: 30px;
+    padding-bottom: 0px;
+    border-radius: 18px;
+    position: relative; 
+    top: 0;
+    left: 0px;
+    box-shadow: 0px 14px 16px rgba(26, 26, 26, 0.747); 
+}
+
+/*Todo el formulario*/
+.form-2-wrapper {
+    background: #ffffff;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 15px;
+    position: relative;
+    top: -633px; /* sube el formulario */
+    box-shadow: 0px 8px 16px rgba(2, 2, 2, 0.575); /* sombra */
+    left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid #072ca7;
+}
+
+input.form-control{
+    padding: 11px;
+    border: none;
+    border: 2px solid #2421c2;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+    padding: 11px;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input.form-control:focus{
+    box-shadow: none !important;
+    outline: 0px !important;
+    background-color: transparent;
+}
+button.login-btn{
+    background: #172eb4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.register-test a{
+    color: #000;
+}
+
+.social-login {
+    text-align: center;
+}
+
+.social-login button {
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 350px;
+    margin-bottom: 20px; 
+  }
+
+  .parrafo-text {
+    color: white;
+    text-align: center; 
+    font-size: 16px; 
+    margin-top: -30px; 
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .floating-boxes {
+    position: absolute;
+    top: -469px;
+    left: -650px;
+    justify-content: space-between
+}
+.floating-box {
+    background-color: #ffe23c;
+    padding: 38px;
+    border-radius: 8px;
+    margin-bottom: 17px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    left: -400;
+    border: 3px solid #e69b10;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    color: #bd7b00;
+}
